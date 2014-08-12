@@ -1,0 +1,54 @@
+<!--
+  This template loads for the 'tab.friends' state (app.js)
+  'party' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+
+<ion-view title="草根參選人">
+  <ion-content class="has-header">
+
+  <ion-list \>  
+    <section ng-hide = "party != 'all' && party != 'green' "
+      <div class="item item-divider">
+        綠黨
+      </div>
+
+      <ion-item class="item-avatar"
+          ng-repeat="g in greens" type="item-text-wrap" href="#/tab/friend/{{g.id}}">
+        
+        <img src = "img/green.png"/>
+        <h2>
+          {{g.name}}
+          &nbsp;&nbsp;
+          <span class = "icon-right ion-chevron-right"></span>
+        </h2>
+        <p>{{g.place}} {{g.loc}} {{g.join}}
+        </p>
+      </ion-item>
+  </section>
+
+  <section ng-hide = "party != 'all' && party != 'boss' "
+      <div class="item item-divider">
+        人民民主陣線
+      </div>
+
+      <ion-item class="item-avatar"
+        ng-repeat="b in boss" type="item-text-wrap" href="#/tab/friend/{{b.id}}">
+
+
+        <img src = "img/boss.png"/>
+        <h2>
+          {{b.name}}
+          &nbsp;&nbsp;
+          <span class = "icon-right ion-chevron-right"></span>
+        </h2>
+        <p>{{b.place}} {{b.loc}} {{b.join}}
+        </p>
+        
+      </ion-item>
+    </ion-list>
+  </section>
+
+  </ion-content>
+</ion-view>

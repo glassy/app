@@ -1,0 +1,52 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'firend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="{{friend.name}}">
+  <ion-content has-header="true" padding="true">
+
+		<div class="bar bar-header bar-balanced">
+
+		   <h1 class="title">{{friend.pt}}
+		  					{{friend.place}}
+		  					{{friend.loc}}
+		  					{{friend.join}}
+		  					&nbsp;&nbsp;
+
+			<!--	<a class="ion-chevron-right button-calm" ng-href = "{{friend.href}}">
+				</a> -->
+			</h1>
+		</div>
+
+
+		<div class="card">
+
+			<a ng-href ="#/tab/friends/{{friend.pt | toEn}}">
+		  		<img class ="item item-image"
+		  			 ng-if = "friend.img"
+		  			 ng-src="{{friend.img}}"
+		  		width = "100%"
+		  		style = "margin-top:25px"/>
+		  	</a>
+
+		  	<a ng-href ="#/tab/friends/{{friend.pt | toEn}}">
+		  		<img class ="item item-image"
+		  			 ng-if = "!friend.img"
+		  			 ng-src="{{friend.pt | toIcon}}"
+		  		width = "100%"
+		  		style = "margin-top:25px"/>
+		  	</a>
+
+	  		<p>
+		  		<a style = "float:right"
+				ng-href = "{{friend.img}}">圖片取自網路</a>
+		  	</p>
+
+		  </di>
+
+
+
+  </ion-content>
+</ion-view>
