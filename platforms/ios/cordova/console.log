@@ -381,3 +381,11 @@
 2014-08-12 14:01:07.749 透明連線[94407:70b] [CDVTimer][TotalPluginStartup] 10.047972ms
 2014-08-12 14:01:09.058 透明連線[94407:70b] Resetting plugins due to page load.
 2014-08-12 14:01:09.557 透明連線[94407:70b] Finished load of: file:///Users/imac/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/283B44DE-A24E-4E28-BB85-C1709E60CDEA/%E9%80%8F%E6%98%8E%E9%80%A3%E7%B7%9A.app/www/index.html#/tab/dash
+2014-08-12 14:04:22.618 透明連線[95120:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-12 14:04:22.625 透明連線[95120:70b] Unlimited access to network resources
+2014-08-12 14:04:22.686 透明連線[95120:70b] [CDVTimer][keyboard] 0.069976ms
+2014-08-12 14:04:22.687 透明連線[95120:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-12 14:04:22.688 透明連線[95120:70b] [CDVTimer][statusbar] 0.472009ms
+2014-08-12 14:04:22.688 透明連線[95120:70b] [CDVTimer][TotalPluginStartup] 1.507998ms
+2014-08-12 14:04:23.392 透明連線[95120:70b] Resetting plugins due to page load.
+2014-08-12 14:04:23.654 透明連線[95120:70b] Finished load of: file:///Users/imac/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/283B44DE-A24E-4E28-BB85-C1709E60CDEA/%E9%80%8F%E6%98%8E%E9%80%A3%E7%B7%9A.app/www/index.html#/tab/dash
